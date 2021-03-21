@@ -21,6 +21,7 @@ h1 {
     font-size: 48px;
 }
 
+/* Changes font color of seo letters */
 .seo {
     color: #d9dcd6;
 }
@@ -33,7 +34,7 @@ h1 {
     font-size: 20px;
 }
 
-
+/* Navigation Items */
 li {
     display: inline-block;
     margin-left: 25px;
@@ -44,7 +45,7 @@ a {
     text-decoration: none;
 }
 
-
+/* Main image on top */
 .hero {
     height: 800px;
     width: 100%;
@@ -52,6 +53,33 @@ a {
     background-image: url(images/digital-marketing-meeting.jpg);
     background-size: cover;
     background-position: center;
+}
+
+/* Websit main cards - search, online, social */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+.content > div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content > div > img {
+    max-height: 200px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -64,12 +92,7 @@ a {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* Right aligned section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -99,23 +122,7 @@ h3 {
     max-width: 150px;
 }
 
-.content > div {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.content > div > img {
-    max-height: 200px;
-}
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 
 
